@@ -13,7 +13,7 @@ function SidebarItem(props) {
 export default function Sidebar() {
     return (
         <div className="sidebar">
-            <span class="sidebar-item">Resume Builder</span>
+            <span class="sidebar-item" style={{fontWeight: 'bold'}}>Resume Builder</span>
             <SidebarItem itemTitle="Content" src="/cv.png" className="sidebar-item"/>
             <SidebarItem itemTitle="Customize" src="/customize.png" className="sidebar-item" />
         </div>

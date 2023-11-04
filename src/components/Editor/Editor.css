@@ -1,0 +1,62 @@
+.editor {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.example-section {
+    display: flex;
+    padding: 1rem;
+    border-radius: 12px;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: 0 7px 29px 0 hsla(240,5%,41%,.2);
+}
+
+.example-section button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: 6px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clear-button {
+    color: red;
+    background-color: transparent;
+}
+
+.personal-section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.personal-section h2 {
+    margin-top: 0;
+}
+
+.personal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-combo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    gap: 8px;
+}
+
+.form-combo label {
+    font-weight: bold;
+}
+
+.personal-form input {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    border: none;
+    height: 2rem;
+    padding-left: 12px;
+}

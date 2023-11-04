@@ -1,17 +1,22 @@
 .sidebar {
-    border: solid 1px blue;
     display: flex;
     flex-direction: column;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px;
 }
 
 .sidebar-item {
+    padding: 16px;
     width: 120px;
-    border: solid 1px palevioletred;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 
 .sidebar-item-img {
