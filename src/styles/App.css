@@ -1,6 +1,9 @@
-#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  }
+.app {
+    border: solid 1px black;
+    display: flex;
+    gap: 24px;
+    margin: auto;
+    max-width: 1500px;
+    padding: 32px 24px;
+    width: 100%;
+}
