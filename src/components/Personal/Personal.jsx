@@ -1,11 +1,15 @@
 import React from 'react'
 import './Personal.css'
 import InputGroup from '../InputGroup/InputGroup';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 function Example () {
     return (
         <div className="example-section">
-            <button className="clear-button">Clear Resume</button>
+            <button className="clear-button">
+                {/* <i className="fa-solid fa-trash" style={{color: '#b91c1c'}}></i> */}
+                Clear Resume
+                </button>
             <button>Load Example</button>
         </div>
     );

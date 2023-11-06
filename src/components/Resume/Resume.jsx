@@ -1,6 +1,7 @@
 import React from 'react'
 import './Resume.css'
 import ResumeHeader from './ResumeHeader';
+import ResumeBody from './ResumeBody';
 
 export default function Resume({ personalInfo }) {
     return(
@@ -10,7 +11,9 @@ export default function Resume({ personalInfo }) {
                 email={personalInfo.email}
                 phone={personalInfo.phone}
                 address={personalInfo.address}
+                className="resume-header"
             />
+            <ResumeBody/>
         </div>
     );
 }
