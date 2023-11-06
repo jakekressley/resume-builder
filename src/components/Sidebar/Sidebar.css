@@ -4,21 +4,24 @@
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 12px;
-    justify-content: space-between;
+    align-items: center;
     background-color: white;
     padding: 16px;
+    height: 100%;
+    width: 5%;
 }
 
 .sidebar-item {
     padding: 16px;
-    width: 120px;
+    width: 100%;
     cursor: pointer;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: white;
 }
 
 .sidebar-item-img {
-    width: 5rem;
+    width: 50%;
 }
