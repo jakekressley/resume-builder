@@ -1,6 +1,5 @@
 .editor {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 30%;
 }
 
 .example-section {
@@ -27,7 +26,7 @@
     background-color: transparent;
 }
 
-.personal-section {
+.info-section {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 1.5rem;
     background-color: white;
@@ -35,8 +34,19 @@
     padding: 24px;
 }
 
-.personal-section h2 {
+.info-section h2 {
     margin-top: 0;
+}
+
+.info-section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.info-section-header h2 {
+    margin: 0;
 }
 
 .personal-form {

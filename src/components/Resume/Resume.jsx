@@ -1,9 +1,9 @@
 import React from 'react'
-import './Resume.css'
+import '../../styles/Resume.css'
 import ResumeHeader from './ResumeHeader';
 import ResumeBody from './ResumeBody';
 
-export default function Resume({ personalInfo }) {
+export default function Resume({ personalInfo, educationInfo }) {
     return(
         <div className="resume">
             <ResumeHeader
@@ -13,7 +13,14 @@ export default function Resume({ personalInfo }) {
                 address={personalInfo.address}
                 className="resume-header"
             />
-            <ResumeBody/>
+            <ResumeBody
+                school={educationInfo.school}
+                degree={educationInfo.degree}
+                startDate={educationInfo.startDate}
+                endDate={educationInfo.endDate}
+                location={educationInfo.location}
+                className="resume-body"
+            />
         </div>
     );
 }

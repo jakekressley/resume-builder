@@ -1,6 +1,6 @@
 import React from 'react'
-import './Personal.css'
-import InputGroup from '../InputGroup/InputGroup';
+import '../styles/Personal.css'
+import InputGroup from './InputGroup';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 function Example () {
@@ -19,7 +19,7 @@ export default function Personal({ onChange, name, email, phone, address }) {
     return (
         <div className="editor">
             <Example/>
-            <div className="personal-section">
+            <div className="info-section">
                 <h2>Personal Details</h2>
                 <form className="personal-form">
                     <InputGroup

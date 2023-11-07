@@ -2,11 +2,12 @@
     height: 100vh;
     margin: auto;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.resume-header {
     text-align: center;
     color: white;
-}
-
-.resume-header {
     padding: 36px 24px;
     background-color: #0e374e;
 }
