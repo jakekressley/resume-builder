@@ -6,9 +6,11 @@
   padding: 32px 24px;
   width: 100%;
   background-color: #f3f4f6;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .editor {
   display: flex;
   flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
 }

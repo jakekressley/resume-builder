@@ -34,7 +34,8 @@
 }
 
 label > * {
-  font-family: "NotoSans-SemiBold";
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
 }
 
 .optional-text,

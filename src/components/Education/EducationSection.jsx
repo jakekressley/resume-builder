@@ -2,7 +2,7 @@ import React from 'react'
 import '../../styles/Resume.css'
 import '@fortawesome/fontawesome-free/css/all.css';
 
-export default function ResumeBody({ school, degree, startDate, endDate, location }) {
+export default function EducationSection({ school, degree, startDate, endDate, location }) {
   return (
     <div className="resume-body">
         <div className="education">

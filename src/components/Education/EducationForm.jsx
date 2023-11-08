@@ -1,10 +1,10 @@
 import React from 'react'
 import '../../styles/App.css'
-import '../../styles/Personal.css'
+import '../../styles/FormSection.css'
 import InputGroup from '../InputGroup'
 import '@fortawesome/fontawesome-free/css/all.css';
 
-export default function EducationInfo({ onChange, school, degree, startDate, endDate, location}) {
+export default function EducationForm({ onChange, school, degree, startDate, endDate, location}) {
   return (
     <div className="info-section">
         <div className="info-section-header">

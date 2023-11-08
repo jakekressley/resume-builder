@@ -1,6 +1,6 @@
 .resume {
     height: 100vh;
-    margin: auto;
+    /* margin: auto; */
     width: 60%;
     display: flex;
     flex-direction: column;

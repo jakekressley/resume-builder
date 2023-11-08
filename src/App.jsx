@@ -2,9 +2,10 @@ import { useState } from 'react'
 import './styles/App.css'
 import Sidebar from './components/Sidebar'
 import Resume from './components/Resume/Resume'
-import Personal from './components/Personal'
+import PersonalInfoSection from './components/PersonalInfoSection'
 import exampleData from '../example-data'
-import EducationInfo from './components/Education/EducationInfo'
+import EducationInfo from './components/Education/EducationForm'
+import ClearLoadButtons from './components/ClearLoadButtons'
 
 function App() {
   const [personalInfo, setPersonalInfo] = useState(exampleData.personalInfo);
@@ -26,7 +27,8 @@ function App() {
     <div className="app">
       <Sidebar/>
       <div className="editor">
-        <Personal
+        <ClearLoadButtons/>
+        <PersonalInfoSection
           onChange={handlePersonalInfoChange}
           name={personalInfo.name}
           email={personalInfo.email}

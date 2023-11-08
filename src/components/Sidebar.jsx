@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Sidebar.css'
+import '../styles/App.css'
 
 function SidebarItem(props) {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/Resume.css'
 import ResumeHeader from './ResumeHeader';
-import ResumeBody from './ResumeBody';
+import EducationSection from '../Education/EducationSection';
 
 export default function Resume({ personalInfo, educationInfo }) {
     return(
@@ -13,7 +13,7 @@ export default function Resume({ personalInfo, educationInfo }) {
                 address={personalInfo.address}
                 className="resume-header"
             />
-            <ResumeBody
+            <EducationSection
                 school={educationInfo.school}
                 degree={educationInfo.degree}
                 startDate={educationInfo.startDate}

@@ -1,0 +1,13 @@
+.personal-form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif
+}
+
+.personal-form input {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    border: none;
+    height: 2rem;
+    padding-left: 12px;
+}

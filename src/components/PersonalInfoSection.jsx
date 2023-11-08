@@ -1,24 +1,14 @@
 import React from 'react'
-import '../styles/Personal.css'
+import '../styles/PersonalInfoSection.css'
+import '../styles/FormSection.css'
+import '../styles/App.css'
 import InputGroup from './InputGroup';
 import '@fortawesome/fontawesome-free/css/all.css';
 
-function Example () {
-    return (
-        <div className="example-section">
-            <button className="clear-button">
-                {/* <i className="fa-solid fa-trash" style={{color: '#b91c1c'}}></i> */}
-                Clear Resume
-                </button>
-            <button>Load Example</button>
-        </div>
-    );
-}
 
-export default function Personal({ onChange, name, email, phone, address }) {
+export default function PersonalInfo({ onChange, name, email, phone, address }) {
     return (
         <div className="editor">
-            <Example/>
             <div className="info-section">
                 <h2>Personal Details</h2>
                 <form className="personal-form">
