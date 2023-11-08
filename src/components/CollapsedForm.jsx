@@ -1,7 +1,5 @@
-import React from 'react()'
-
 export default function CollapsedForm(props) {
-    const props = { isHidden, sectionTitle, hideForm, arrayName };
+    const { onClick, hideForm, title, arrayName } = props;
     const { isHidden, id } = props.form;
   return (
     <button

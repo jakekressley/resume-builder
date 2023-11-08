@@ -1,4 +1,4 @@
-import { useId } from 'react';
+import uniqid from 'uniqid'
 
 const exampleData = {
     personalInfo: {
@@ -17,7 +17,7 @@ const exampleData = {
             location: "São Bernardo do Campo, Brazil",
             isCollapsed: true,
             isHidden: false,
-            id: useId(),
+            id: uniqid(),
         },
         {
             school: "UFC Grappling Academy",
@@ -27,7 +27,7 @@ const exampleData = {
             location: "Las Vegas, United States",
             isCollapsed: true,
             isHidden: true,
-            id: useId(),
+            id: uniqid(),
         },
     ],
         experience: [
@@ -40,7 +40,7 @@ const exampleData = {
                 description: "Currently in contention to be the champion of the Light Heavyweight Division. Ranked #3 in division. Former middleweight champion via knockout of Israel Adesanya. Travelling fighter",
                 isCollapsed: true,
                 isHidden: false,
-                id: useId(),
+                id: uniqid(),
             },
             {
                 companyName: "Glory Kickboxing",
@@ -51,7 +51,7 @@ const exampleData = {
                 description: "Amassed 12-4 record while securing both middleweight and light heavyweight championships. Achieved 8 wins by KO and dished out 15 knockdowns over career",
                 isCollapsed: true,
                 isHidden: false,
-                id: useId(),
+                id: uniqid(),
             }
         ]
     }
