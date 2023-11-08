@@ -1,4 +1,5 @@
 import '@fortawesome/fontawesome-free/css/all.css';
+import '../styles/ExpandSection.css'
 
 export default function ExpandSection({isOpen, setOpen, sectionTitle, iconName}) {
     return (
@@ -7,7 +8,7 @@ export default function ExpandSection({isOpen, setOpen, sectionTitle, iconName})
             onClick={() => setOpen(isOpen ? "" : sectionTitle)}
         >
             <h2 className="expand-section-header">
-                <i className={iconName}/>
+                <i className={`${iconName}`}/>
                 {sectionTitle}
             </h2>
             <i className={`fa-solid fa-chevron-up chevron ${isOpen ? "open" : ""}`} />

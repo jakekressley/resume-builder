@@ -4,13 +4,15 @@ import '../../styles/FormSection.css'
 import InputGroup from '../InputGroup'
 import '@fortawesome/fontawesome-free/css/all.css';
 
-export default function EducationForm({ onChange, school, degree, startDate, endDate, location}) {
+export default function EducationForm(props) {
+    const { degree, schoolName, location, startDate, endDate, id } = props.form;
+    const { onChange, cancel, save, remove } = props;
   return (
-    <div className="info-section">
-        <div className="info-section-header">
-            <i className="fa-solid fa-graduation-cap"></i>
-            <h2>Education</h2>
-        </div>
+    <div className="info-section"
+        id={id}
+        data-array-name="educations"
+        onSubmit={(e) => e.preventDefault()}
+      >
         <form className="personal-form">
             <InputGroup
                 id="school"

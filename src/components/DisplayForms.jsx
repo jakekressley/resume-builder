@@ -1,4 +1,5 @@
 import CollapsedForm from "./CollapsedForm";
+import '../styles/Section.css'
 
 export default function DisplayForms({ forms, FormComponent, onChange, onCancel, onHide, onRemove, toggleCollapsed, titleKey, arrayName }) {
     return(

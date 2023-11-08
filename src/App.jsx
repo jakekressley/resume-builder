@@ -115,7 +115,7 @@ function removeForm(e) {
           onHide={toggleHidden}
           onRemove={removeForm}
         />
-      /</div>
+      </div>
       <Resume
         personalInfo={personalInfo}
         educationInfo={educationInfo}

@@ -10,9 +10,9 @@ export default function AddEducationSection({ educations, isOpen, onChange, setO
                 isOpen={isOpen}
                 setOpen={setOpen}
                 sectionTitle="Education"
-                iconName="fa-solid fa=graduation-cap"
+                iconName="fa-solid fa-graduation-cap"
             />
-            <div className={`"section-content ${isOpen ? "open" : ""}`}>
+            <div className={`section-content ${isOpen ? "open" : ""}`}>
                 <DisplayForms
                     forms={educations}
                     FormComponent={EducationForm}

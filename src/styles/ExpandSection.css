@@ -1,0 +1,9 @@
+.expand-section {
+    align-items: center;
+    background-color: initial;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    width: 100%;
+}
